@@ -1,4 +1,4 @@
-Example of c++ project, which is built and launched inside docker container.
+Example of c++ project, which is built and run inside docker container.
 
 Goals:
 - min steps to build from sources
