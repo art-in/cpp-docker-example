@@ -8,6 +8,9 @@ Build & run in docker
 Prerequisites: (1) [docker](https://www.docker.com/), (2) unix shell (e.g. bash).
 
 ```
+git clone https://github.com/artin-phares/cpp-docker-example
+cd cpp-docker-example
+
 ./scripts/build.sh          # build inside docker container
 ./scripts/build-and-run.sh  # build inside docker container and run it
 ```
