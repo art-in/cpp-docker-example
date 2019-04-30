@@ -1,11 +1,16 @@
 Example of c++ project, which is build and run inside docker container.
 
+Goals:
+- min steps to build from sources
+- min steps to deploy dev env
+- min prerequisites (to not polute host environment with dozens of tools/dependencies)
+
 ---
 
 Build & run in docker
 ---
 
-Prerequisites: (1) [docker](https://www.docker.com/), (2) unix shell (e.g. bash).
+Prerequisites: (1) [docker](https://www.docker.com/), (2) git, (3) unix shell (e.g. bash).
 
 ```
 git clone https://github.com/artin-phares/cpp-docker-example
@@ -14,6 +19,9 @@ cd cpp-docker-example
 ./scripts/build.sh          # build inside docker container
 ./scripts/build-and-run.sh  # build inside docker container and run it
 ```
+
+Notes:  
+On linux, if docker requires `sudo` - setup it to run without `sudo` ([instructions](https://askubuntu.com/a/477554/950607)).
 
 Run prebuild docker
 ---
