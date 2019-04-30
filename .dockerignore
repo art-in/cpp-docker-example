@@ -1,0 +1,6 @@
+/.vscode
+/build/build-system
+/build/vcpkg
+/build/include
+/docker
+/scripts
