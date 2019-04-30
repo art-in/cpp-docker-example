@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(project-example)
+project(cpp-docker-example)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_COMPILER /usr/bin/g++-8)
@@ -12,7 +12,7 @@ file(GLOB project_SRC
     "../src/*.cpp"
 )
 
-add_executable(project-example ${project_SRC})
+add_executable(cpp-docker-example ${project_SRC})
 
 set(cpprestsdk_DIR /usr/lib/${CMAKE_LIBRARY_ARCHITECTURE}/cmake/)
 
@@ -20,4 +20,4 @@ find_package(SQLite3 REQUIRED)
 find_package(Boost REQUIRED system)
 find_package(cpprestsdk REQUIRED)
 
-target_link_libraries(project-example PRIVATE stdc++fs sqlite3 cpprestsdk::cpprest ${Boost_SYSTEM_LIBRARY})
+target_link_libraries(cpp-docker-example PRIVATE stdc++fs sqlite3 cpprestsdk::cpprest ${Boost_SYSTEM_LIBRARY})

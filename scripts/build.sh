@@ -5,7 +5,7 @@
 # --tools - recreates docker image with build tools even if it already exists.
 #           use it when changing build tools or project dependencies.
 
-PROJECT_NAME=project-example
+PROJECT_NAME=cpp-docker-example
 
 DOCKER_IMAGE_BUILD=$PROJECT_NAME
 DOCKER_IMAGE_TOOLS=$PROJECT_NAME-tools

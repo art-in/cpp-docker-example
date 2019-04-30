@@ -33,7 +33,7 @@ Prerequisites: (1) [docker](https://www.docker.com/).
 docker run -di \
     -p <port>:8080 \
     --mount type=bind,src=<database folder path>,dst=/opt/project/build/bin/data/ \
-    artinphares/project-example
+    artinphares/cpp-docker-example
 ```
 
 Notes:  

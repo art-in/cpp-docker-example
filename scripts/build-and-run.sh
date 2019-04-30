@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_NAME=project-example
+PROJECT_NAME=cpp-docker-example
 
 # go to project root
 cd $(dirname $(realpath "$0")) && cd ..

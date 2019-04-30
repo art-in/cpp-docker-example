@@ -1,4 +1,4 @@
-FROM project-example-tools
+FROM cpp-docker-example-tools
 
 COPY . /opt/project/
 
@@ -7,4 +7,4 @@ WORKDIR /opt/project/build
 RUN cmake -S . -B ./build-system
 RUN cmake --build ./build-system --config Release
 
-CMD ["/opt/project/build/bin/project-example"]
+CMD ["/opt/project/build/bin/cpp-docker-example"]
