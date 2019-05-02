@@ -5,6 +5,9 @@ Goals:
 - min steps to deploy dev env
 - min prerequisites (to not polute host environment with dozens of tools/dependencies)
 
+Issues:
+- rebuild is slow as object files are not cached between builds
+
 ---
 
 Build & run in docker
